@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Runner.cpp" />
+    <ClCompile Include="AObjectBase.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ISequenceBase.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Creational Pattrns">
+      <UniqueIdentifier>{81943b8b-cdca-4c19-9793-3c38f2f87161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence">
+      <UniqueIdentifier>{285a77a0-aab7-4f0f-9ee3-6f497c164040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{d3b885c0-1235-4c73-a330-c4f921b7aea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{0fd08040-7705-4fe4-8bf2-851566a9e0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{44d28948-62f0-4e53-90ca-dbfed01b2ff0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UserTString.h" />
+    <ClInclude Include="AObjectBase.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ISequenceBase.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="ATemplateSingleton.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManger.h" />
+    <ClInclude Include="test.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

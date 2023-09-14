@@ -1,0 +1,1 @@
+#include "ISequenceBase.h"
